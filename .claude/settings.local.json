@@ -12,7 +12,10 @@
       "Bash(Get-ChildItem -Recurse -Depth 3 -ErrorAction SilentlyContinue)",
       "Bash(Select-Object FullName, PSIsContainer)",
       "Bash(pip install *)",
-      "WebFetch(domain:casamonarca.org.mx)"
+      "WebFetch(domain:casamonarca.org.mx)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
